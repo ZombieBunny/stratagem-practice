@@ -46,14 +46,13 @@ html,
 .is-success {
     background-image: url(./assets/down-arrow-success.png) !important;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .right {
     /* border-radius: 30px; */
     width: 50px;
     height: 50px;
     background-image: url(./assets/down-arrow.png);
-    object-fit: contain;
     background-repeat: no-repeat;
     background-size: contain;
     transform: rotate(270deg);
