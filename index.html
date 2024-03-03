@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <title>Stratagem Practice</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+    <div class="outer-container">
+        <div>
+            <h2 class="nes-text is-primary">Stratagems</h2>
+        </div>
+        <div class="inner-container">
+            <div class="nes-text is-primary is-centered" id="name"></div>
+            <div class="nes-text is-primary" id="sequence"></div>
+        </div>
+        <div class="buttons">
+            <div>
+                <button type="button" class="nes-btn is-primary" onclick="direction('up')">up</button>
+            </div>
+            <div>
+                <button type="button" class="nes-btn is-primary" onclick="direction('left')">left</button>
+                <button type="button" class="nes-btn is-primary" onclick="direction('right')">right</button>
+            </div>
+            <div>
+                <button type="button" class="nes-btn is-primary" onclick="direction('down')">down</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

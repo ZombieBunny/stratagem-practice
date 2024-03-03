@@ -1,0 +1,94 @@
+body,
+html,
+.inner-container,
+.outer-container {
+  height: 100%;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto 50px;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nes-text {
+    padding: 5px;
+    margin: 10px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.nes-btn {
+    padding: 10px;
+    margin: 50px auto;
+    min-width: 50px;
+}
+
+#name {
+    font-size: 20px;
+    font-weight: bold;
+}
+#sequence {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5px;
+}
+
+.is-success {
+    background-image: url(./assets/down-arrow-success.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right {
+    /* border-radius: 30px; */
+    width: 50px;
+    height: 50px;
+    background-image: url(./assets/down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(270deg);
+}
+
+.left {
+    /* border-radius: 30px; */
+    width: 50px;
+    height: 50px;
+    background-image: url(./assets/down-arrow.png);
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    background-size: cover;
+}
+
+.up {
+    /* border-radius: 30px; */
+    width: 50px;
+    height: 50px;
+    background-image: url(./assets/down-arrow.png);
+    transform: rotate(180deg);
+    background-size: cover;
+}
+
+.down {
+    /* border-radius: 30px; */
+    width: 50px;
+    height: 50px;
+    background-image: url(./assets/down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.is-centered {
+    display: flex;
+    flex-direction: column;
+
+}
